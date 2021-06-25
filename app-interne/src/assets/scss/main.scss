@@ -1,0 +1,51 @@
+@import './charte';
+@import './components/button';
+@import './components/form';
+@import './components/top-navbar';
+
+html, body {
+  min-height: 100vh;
+  font-family: 'circe' !important;
+  color: #0A1D42;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+}
+
+.ml-auto {
+  margin-left: auto !important;
+}
+
+.ml-1 {
+  margin-left: 1rem;
+}
+
+.mr-btn {
+  margin-right: 1.6rem;
+}
+
+.ml-btn {
+  margin-left: 1.6rem;
+}
+
+.container {
+  padding: 0.5rem;
+}
+
+.carousel-container {
+  min-height: 30rem;
+}
+.carousel {
+  height: 100%;
+  .carousel-inner {
+    height: 100%;
+    .carousel-item {
+      height: 75%;
+    }
+  }  
+}

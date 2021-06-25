@@ -1,0 +1,53 @@
+.form {
+  background-color: #F4F4F4;
+  border-radius: 1.5rem;
+  padding: 2rem;
+  margin: 2rem 0;
+  input, textarea, select {
+    background-color: white;
+  }
+}
+
+.health-schema {
+  // background-size: 50rem 35rem;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 26rem;
+  width: 32rem;
+  &.cc {
+    &.top {
+      background-image: url('~@/assets/illustration_tortue_CC_haut.png');
+    }
+    &.bottom {
+      background-image: url('~@/assets/illustration_tortue_CC_bas.png');
+    }
+  }
+  &.cm {
+    &.top {
+      background-image: url('~@/assets/illustration_tortue_CM_haut.png');
+    }
+    &.bottom {
+      background-image: url('~@/assets/illustration_tortue_CM_bas.png');
+    }
+  }
+  &.ei {
+    &.top {
+      background-image: url('~@/assets/illustration_tortue_EI_haut.png');
+    }
+    &.bottom {
+      background-image: url('~@/assets/illustration_tortue_EI_bas.png');
+    }
+  }
+}
+
+.label-btn {
+  padding: 0.8rem 1.2rem;
+  background-color: transparent;
+  border-radius: 1.6rem;
+  border: 0.2rem #0A1D42 solid;
+  &.active-label {
+    background-color: #E3EDFF;
+    border-color: #E3EDFF;
+    font-weight: 700;
+  }
+}

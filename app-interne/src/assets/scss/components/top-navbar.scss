@@ -1,0 +1,33 @@
+#top-navbar {
+  // position: fixed;
+  // background: transparent;
+  a, button, [type=submit] {
+    display: inline;
+    font-size: 2.2rem;
+    padding: 1rem 2rem;
+    background-color: white;
+    border: 0.2rem solid #0A1D42;
+    border-radius: 1.8rem;
+    color: #0A1D42;
+    &:hover {
+      background-color: #0A1D42;
+      color: white;
+    }
+    img {
+      margin-left: 1rem;
+    }
+    &.btn-green {
+      background-color: #E0FFE0;
+      color: #69AF69;
+      border-color: #69AF69;
+      &:hover {
+        background-color: #69AF69;
+        color: white;
+      }
+    }
+    &.btn-unstyled {
+      border-color: transparent;
+      background-color: transparent;
+    }
+  }
+}
